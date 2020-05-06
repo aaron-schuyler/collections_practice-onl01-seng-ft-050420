@@ -26,3 +26,9 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  kesha = []
+  array.each do |word|
+    word[2] = "$"
+    kesha.push(word)
